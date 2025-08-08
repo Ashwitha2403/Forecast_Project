@@ -1,0 +1,21 @@
+pip install uvicorn
+pip install fastapi
+pip install pymongo
+pip install panadas
+pip install prophet
+pip install streamlit
+pip install transformers
+pip install torch
+pip install plotly
+
+
+
+cmd1: 
+py l tab
+
+cmd2: --
+uvicorn main:app --reload
+
+another cmd:--
+cd forecst_project
+streamlit run dashboard.py
